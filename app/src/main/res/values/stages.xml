@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_stageuseprofileswitch" translatable="false">StagesProfileSwitchUsed</string>
+    <string name="key_stageusedisconnect" translatable="false">StagesDisconnectUsed</string>
+    <string name="key_stageusereconnect" translatable="false">StagesReconnectUsed</string>
+    <string name="key_stageusetemptarget" translatable="false">StagesTempTargetUsed</string>
+    <string name="key_stageuseactions" translatable="false">StagesActionsUsed</string>
+    <string name="key_stageuseloop" translatable="false">StagesLoopUsed</string>
+    <string name="key_stageusescale" translatable="false">StagesScaleUsed</string>
+    <string name="key_stages_request_code" translatable="false">stages_request_code</string>
+    <string name="key_StagesbgIsAvailableInNS" translatable="false">StagesbgIsAvailableInNS</string>
+    <string name="key_StagespumpStatusIsAvailableInNS" translatable="false">StagespumpStatusIsAvailableInNS</string>
+    <string name="key_StagesmanualEnacts" translatable="false">StagesmanualEnacts</string>
+
+    <string name="stages_button_back">Back</string>
+    <string name="stages_button_start">Start</string>
+    <string name="stages_button_verify">Verify</string>
+    <string name="nth_stage">Stage %1$d</string>
+    <string name="stagenotstarted">Stage %1$d not started</string>
+    <string name="stagenotfinished">Stage %1$d not finished</string>
+    <string name="stages_0_stage">Setting up visualization and monitoring, and analyzing basals and ratios</string>
+    <string name="stages_0_gate">Verify that BG is available in Nightscout, and pump insulin data is being uploaded</string>
+    <string name="stages_openloop_stage">Starting on an open loop</string>
+    <string name="stages_openloop_gate">In open loop mode, AnyDANA-Loop will recommend changes to basal delivery to work to keep your blood glucose in range. Once you have enacted 10 temporary basal rates, you can press verify to progress through to the next stage. You should aim to complete stage one and move onto stage two in 1-3 days</string>
+    <string name="stages_maxbasal_stage">Understanding your open loop, including its temp basal recommendations</string>
+    <string name="stages_maxbasal_gate">Based on that experience, decide what max basal should be, and set it on the pump and preferences</string>
+    <string name="stages_maxiobzero_stage">Starting to close the loop with Low Glucose Suspend</string>
+    <string name="stages_maxiobzero_gate">In Low Glucose Suspend, AnyDANA-Loop will automatically reduce basal insulin delivery if it predicts low glucose. It will not make any corrections for high glucose (you need to correct manually). Spend three days in Low Glucose Suspend. If you have multiple lows during this time, contact your HCP. If you do not have many lows, you can progress to stage 3 after three days.</string>
+    <string name="stages_maxiob_stage"></string>
+    <string name="stages_maxiob_gate">In stage 3 you are in full automated insulin delivery mode. AnyDANA-Loop will automatically increase or reduce basal insulin delivery to keep you in target range. Your safety settings are currently conservative to minimise risk of hypoglycaemia. You can move to stage 4 in consultation with your HCP at or after your first electronic review.</string>
+    <string name="stages_autosens_stage">Adjust basals and ratios if needed, and then enable auto-sens</string>
+    <string name="stages_autosens_gate">1 week successful daytime looping with regular carb entry</string>
+    <string name="stages_ama_stage">Enabling additional features for daytime use, such as advanced meal assist</string>
+    <string name="stages_smb_stage">Enabling additional features for daytime use, such as SMB</string>
+    <string name="stages_smb_gate">In stage 4 you have access to the full range of algorithm features to minimise high glucose. Please ensure that you understand the features in stage 4 before making any changes to settings.</string>
+    <string name="stages_bgavailableinns">BG available in NS</string>
+    <string name="stages_pumpstatusavailableinns">Pump status available in NS</string>
+    <string name="stages_manualenacts">Manual enacts</string>
+    <string name="accomplished">Accomplished: %1$s</string>
+    <string name="stages_usage_stage">Learn how to control AndroidAPS</string>
+    <string name="stages_usage_gate">Perform different actions in AndroidAPS</string>
+    <string name="stages_useprofileswitch">Set profile 90% for 10 min (Long-press profile name on Overview)</string>
+    <string name="stages_usedisconnectpump">Simulate shower. Disconnect pump for 1h (Long-press on Open Loop)</string>
+    <string name="stages_usereconnectpump">... and reconnect back the same way</string>
+    <string name="stages_usetemptarget">Create custom temporary target with 10 min duration (Long-press on your current target)</string>
+    <string name="stages_useactions">In Config Builder enable Actions plugin, make it visible and display its content from top menu</string>
+    <string name="stages_useloop">Display content of Loop plugin</string>
+    <string name="stages_usescale">Use scale function by long-pressing BG chart</string>
+    <string name="stages_button_enter">Enter</string>
+    <string name="enter_code_obtained_from_developers_to_bypass_the_rest_of_stages">For CREATE Admin Staff:</string>
+    <string name="codeaccepted">Code accepted</string>
+    <string name="codeinvalid">Code invalid</string>
+    <string name="stages_exam_stage">Prove your knowledge</string>
+    <string name="stages_exam_gate">Study and answer questions correctly</string>
+    <string name="answerdisabledto">Answering disabled until: %1$s</string>
+    <string name="wronganswer">Wrong answer!</string>
+    <string name="unfinshed_button">Next unfinished</string>
+    <string name="requestcode">Request code: %1$s</string>
+    <string name="stages_hint">(check all correct answers)</string>
+    <string name="disconnectpump_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/FAQ.html#what-to-do-when-taking-a-shower-or-bath</string>
+    <string name="usetemptarget_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="useaction_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#config-builder</string>
+    <string name="usescale_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="notconnected">Not connected to the internet</string>
+    <string name="failedretrievetime">Failed retrieve time</string>
+    <string name="requirementnotmet">Stage requirements not met</string>
+
+    <plurals name="stage_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="stage_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="stage_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+</resources>

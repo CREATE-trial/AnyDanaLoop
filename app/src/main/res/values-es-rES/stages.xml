@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stages_button_back">Atrás</string>
+    <string name="stages_button_start">Inicio</string>
+    <string name="stages_button_verify">Verificar</string>
+    <string name="nth_stage">%1$d. Objetivo</string>
+    <string name="stagenotstarted">Objetivo %1$d no iniciado</string>
+    <string name="stagenotfinished">Objetivo %1$d no finalizado</string>
+    <string name="stages_0_stage">Configurar la visualización y la monitorización, analizar los valores basales y las ratios</string>
+    <string name="stages_0_gate">Comprobar que los datos de glucosa están disponibles en Nightscout, y que los datos de la bomba de insulina se están subiendo</string>
+    <string name="stages_openloop_stage">Comenzando en lazo abierto</string>
+    <string name="stages_openloop_gate">Ejecutar en modo de lazo abierto durante unos días, y aceptar manualmente las basales temporales. Configure y use objetivos temporales y predeterminados (por ejemplo, para actividad o carbohidratos para hipoglucemia)</string>
+    <string name="stages_maxbasal_stage">Entender el lazo abierto, incluidas las recomendaciones de basales temporales</string>
+    <string name="stages_maxbasal_gate">Sobre la base de esa experiencia, decidir valores de máximo basal, y ajustar la bomba y preferencias</string>
+    <string name="stages_maxiobzero_stage">Iniciando el lazo cerrado con suspensión con baja glucosa</string>
+    <string name="stages_maxiobzero_gate">Ejecutar en lazo cerrado con max IOB=0 durante unos días sin demasiados valores bajos de glucosa</string>
+    <string name="stages_maxiob_stage">Ajuste del lazo cerrado, aumentando máximo IOB por encima de 0 y bajando gradualmente objetivos BG</string>
+    <string name="stages_maxiob_gate">Usar unos cuantos días, y al menos una noche sin alarmas de glucosa baja, antes de bajar valor de glucosa</string>
+    <string name="stages_autosens_stage">Ajustar las basales y ratios, si es necesario, y luego activar auto-sens</string>
+    <string name="stages_autosens_gate">Una semana con éxito en lazo cerrado durante el día con entrada regular de carbohidratos</string>
+    <string name="stages_ama_stage">Habilitar funciones adicionales para su uso durante el día, como el asistente de comida avanzado</string>
+    <string name="stages_smb_stage">Habilitar funciones adicionales para uso durante el día como SMB</string>
+    <string name="stages_smb_gate">¡Debes leer el wiki y subir maxIOB para que SMB funcione bien! Para comenzar un buen valor sería maxIOB = bolo de comida medio + 3 x máximo basal diario</string>
+    <string name="stages_bgavailableinns">Glucosa disponible en NS</string>
+    <string name="stages_pumpstatusavailableinns">Estado de la bomba disponible en NS</string>
+    <string name="stages_manualenacts">Aprobación Manual</string>
+    <string name="accomplished">Completado: %1$s</string>
+    <string name="stages_usage_stage">Aprende a controlar AndroidAPS</string>
+    <string name="stages_usage_gate">Realice diferentes acciones en AndroidAPS</string>
+    <string name="stages_useprofileswitch">Establecer perfil 90% durante 10 min (Pulsación larga en nombre del perfil en Resumen)</string>
+    <string name="stages_usedisconnectpump">Simular ducha. Desconectar bomba durante 1h (Pulsación larga en el lazo abierto)</string>
+    <string name="stages_usereconnectpump">... y volver a conectar de la misma manera</string>
+    <string name="stages_usetemptarget">Crear un objetivo temporal personalizado con 10 min de duración (Pulsación larga en tu objetivo actual)</string>
+    <string name="stages_useactions">En Config Builder habilitar el plugin Acciones, hágalo visible y muestre su contenido desde el menú superior</string>
+    <string name="stages_useloop">Mostrar contenido del plugin Loop</string>
+    <string name="stages_usescale">Usar función de escala mediante un gráfico BG pulsado largo</string>
+    <string name="stages_button_enter">Intro</string>
+    <string name="codeaccepted">Código aceptado</string>
+    <string name="codeinvalid">Código no válido</string>
+    <string name="stages_exam_stage">Compruebe su conocimiento</string>
+    <string name="stages_exam_gate">Responder correctamente</string>
+    <string name="answerdisabledto">Respuesta deshabilitada a: %1$s</string>
+    <string name="wronganswer">Respuesta incorrecta!</string>
+    <string name="unfinshed_button">Siguien&amp;te sin terminar</string>
+    <string name="requestcode">Solicitar código: %1$s</string>
+    <string name="stages_hint">(compruebe todas las respuestas correctas)</string>
+    <string name="disconnectpump_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/FAQ.html#what-to-do-when-taking-a-shower-or-bath</string>
+    <string name="usetemptarget_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="useaction_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#config-builder</string>
+    <string name="usescale_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="notconnected">Sin conexión a Internet</string>
+    <string name="failedretrievetime">Fallo tiempo de recuperación</string>
+    <string name="requirementnotmet">No se cumplen los requisitos de objetivo</string>
+    <plurals name="stage_days">
+        <item quantity="one">%1$d día</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="stage_hours">
+        <item quantity="one">%1$d hora</item>
+        <item quantity="other">%1$d horas</item>
+    </plurals>
+    <plurals name="stage_minutes">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="other">%1$d minutos</item>
+    </plurals>
+</resources>

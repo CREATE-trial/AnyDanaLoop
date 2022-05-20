@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stages_button_back">Πίσω</string>
+    <string name="stages_button_start">Έναρξη</string>
+    <string name="stages_button_verify">Επικύρωση</string>
+    <string name="nth_stage">%1$d. Στόχος</string>
+    <string name="stagenotstarted">Ο στόχος %1$d δεν ξεκίνησε</string>
+    <string name="stagenotfinished">Ο στόχος %1$d δεν ολοκληρώθηκε</string>
+    <string name="stages_0_stage">Δημιουργία παρακολούθησης και ανάλυση βασικού ρυθμού και αναλογιών</string>
+    <string name="stages_0_gate">Επιβεβαιώστε ότι η BG φαίνεται στο Nightscout και τα δεδομένα της αντλίας φορτώθηκαν</string>
+    <string name="stages_openloop_stage">Ξεκινήστε σε ανοιχτό κύκλωμα</string>
+    <string name="stages_openloop_gate">Τρέξτε σε ανοιχτό κύκλωμα μερικές ημέρες και χειροκίνητα κάντε πολλούς προσωρινούς ρυθμούς. Φτιάξτε και χρησιμοποιήστε προσωρινούς και στανταρντ προσωρινούς στόχους (π.χ. για άσκηση ή θεραπεία υπογλυκαιμίας)</string>
+    <string name="stages_maxbasal_stage">Κατανοήστε το ανοιχτό κύκλωμα, περιλαμβάνοντας τις προτάσεις για Προσωρινό ρυθμό</string>
+    <string name="stages_maxbasal_gate">Βάση της εμπειρίας σας, αποφασίστε ποιο είναι το μέγιστο βασικής δόσης και αποθηκεύστε το στην αντλία και στις Επιλογές</string>
+    <string name="stages_maxiobzero_stage">Ξεκινήστε να κλείσετε το κύκλωμα με Σταμάτημα Χαμηλής Γλυκόζης (Low Glucose Suspend)</string>
+    <string name="stages_maxiobzero_gate">Τρέξτε σε κλειστό κύκλωμα με μέγιστο IOB = 0 για μερικές ημέρες χωρίς πολλά LGS - υπογλυκαιμίες</string>
+    <string name="stages_maxiob_stage">Ρυθμίζοντας το κλειστό κύκλωμα, αυξήστε το μέγιστο IOB πάνω από 0 και σταδιακά μειώστε τους στόχους BG</string>
+    <string name="stages_maxiob_gate">Τρέξτε το για λίγες ημέρες, και τουλάχιστον μία νύχτα χωρίς χαμηλό συναγερμό BG, πριν χαμηλώσετε τα όρια</string>
+    <string name="stages_autosens_stage">Ρυθμίστε τον βασικό ρυθμό και τις αναλογίες αν χρειάζεται, και μετά ενεργοποιήστε το auto-sens</string>
+    <string name="stages_autosens_gate">1 επιτυχής εβδομάδα ημερήσιου κυκλώματος με κανονική εισαγωγή υδατανθράκων</string>
+    <string name="stages_ama_stage">Ενεργοποιώντας επιπρόσθετα χαρακτηριστικά για χρήση κατά την ημέρα, όπως τον Προχωρημένο Βοηθό Γεύματος</string>
+    <string name="stages_smb_stage">Ενεργοποιώντας επιπρόσθετα χαρακτηριστικά για χρήση κατά την ημέρα, όπως το SMB</string>
+    <string name="stages_smb_gate">Πρέπει να διαβάσετε τον οδηγό wiki και να αυξήσετε το ανώτατο όριο του IOB για να μπορέσει να λειτουργήσει σωστά το SMB! Μια καλή αρχή είναι μέγιστο IOB= μέσο bolus γεύματος + 3 x το μέγιστο ημερήσιο βασικού ρυθμού</string>
+    <string name="stages_bgavailableinns">BG διαθέσιμες στο NS</string>
+    <string name="stages_pumpstatusavailableinns">Η κατάσταση της αντλίας διαθέσιμη στο NS</string>
+    <string name="stages_manualenacts">Ξεκινήστε χειροκίνητα</string>
+    <string name="accomplished">Επιτεύχθηκε: %1$s</string>
+    <string name="stages_usage_stage">Μάθετε πώς να ελέγχετε το AndroidAPS</string>
+    <string name="stages_usage_gate">Κάντε διαφορετικές ενέργειες στο AndroidAPS</string>
+    <string name="stages_useprofileswitch">Θέστε το προφίλ στο 90% για 10 λεπτά (Παρατεταμένο πάτημα του προφίλ στην Επισκόπηση)</string>
+    <string name="stages_usedisconnectpump">Προσομοίωση ένδειξης. Αποσυνδέστε την αντλία για 1 ώρα (Παρατεταμένο στο Ανοιχτό Κύκλωμα)</string>
+    <string name="stages_usereconnectpump">... και επανασυνδέστε με τον ίδιο τρόπο</string>
+    <string name="stages_usetemptarget">Φτιάξτε προσωρινούς στόχους με διάρκεια 10 λεπτά (Παρατεταμένο πάτημα στον στόχο σας)</string>
+    <string name="stages_useactions">Στην Διαμόρφωση ενεργοποιήστε την προσθήκη Ενέργειες, κάντε την ορατή ώστε να την βλέπετε από το δικό της tab</string>
+    <string name="stages_useloop">Εμφάνιση περιεχομένου της προσθήκης Κύκλωμα</string>
+    <string name="stages_usescale">Χρησιμοποιήστε τη λειτουργία κλίμακας πατώντας παρατεταμένα το διάγραμμα BG</string>
+    <string name="stages_button_enter">Εισαγωγή</string>
+    <string name="codeaccepted">Κωδικός αποδεκτός</string>
+    <string name="codeinvalid">Μη έγκυρος κωδικός</string>
+    <string name="stages_exam_stage">Αποδείξτε τις γνώσεις σας</string>
+    <string name="stages_exam_gate">Διαβάστε και απαντήστε τις ερωτήσεις σωστά</string>
+    <string name="answerdisabledto">Οι απαντήσεις εμφανίζονται στο: %1$s</string>
+    <string name="wronganswer">Λάθος απάντηση!</string>
+    <string name="unfinshed_button">Επόμενο ημιτελές</string>
+    <string name="requestcode">Κωδικός αιτήματος: %1$s</string>
+    <string name="stages_hint">(ελέγξτε όλες τις σωστές απαντήσεις)</string>
+    <string name="disconnectpump_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/FAQ.html#what-to-do-when-taking-a-shower-or-bath</string>
+    <string name="usetemptarget_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="useaction_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#config-builder</string>
+    <string name="usescale_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="notconnected">Δεν είστε συνδεδεμένοι στο internet</string>
+    <string name="failedretrievetime">Απέτυχε η ανάκτηση ώρας</string>
+    <string name="requirementnotmet">Αντικειμενικές προϋποθέσεις δεν πληρούνται</string>
+    <plurals name="stage_days">
+        <item quantity="one">%1$d ημέρα</item>
+        <item quantity="other">%1$d ημέρες</item>
+    </plurals>
+    <plurals name="stage_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="stage_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+</resources>

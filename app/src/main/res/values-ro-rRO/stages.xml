@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stages_button_back">Înapoi</string>
+    <string name="stages_button_start">Start</string>
+    <string name="stages_button_verify">Verifică</string>
+    <string name="nth_stage">Obiectiv %1$d</string>
+    <string name="stagenotstarted">Obiectivul %1$d nu a fost asumat</string>
+    <string name="stagenotfinished">Obiectivul %1$d nu a fost atins</string>
+    <string name="stages_0_stage">Se stabilesc vizualizările și monitorizarea și se analizează bazalele și valorile ratelor</string>
+    <string name="stages_0_gate">Verificați că vedeți glicemia în Nightscout și că datele despre insulină date de pompă sunt înregistrate în site</string>
+    <string name="stages_openloop_stage">Pornire cu buclă deschisă</string>
+    <string name="stages_openloop_gate">Funcționare în modul Buclă Deschisă pentru câteva zile și introducere manuală a multiplelor sugestii de bazale temporare. Se stabilesc și se folosesc ținte temporare și ținte implicite (e.g. pentru activități sau pentru carbohidrați de corecție)</string>
+    <string name="stages_maxbasal_stage">Se va înțelege modul de lucru în buclă deschisă, inclusiv recomandările de bazale temporare</string>
+    <string name="stages_maxbasal_gate">Pe baza experienței, se va decide care va fi bazala maximă, și se va implementa aceasta în pompă și în preferințe</string>
+    <string name="stages_maxiobzero_stage">Se va începe modul buclă închisă cu funcția Suspendare la Glicemie Mică</string>
+    <string name="stages_maxiobzero_gate">Rulează în mod buclă închisă cu max IOB = 0 pentru câteva zile, fără prea multe evenimente LGS (Suspendare la Glicemii Mici)</string>
+    <string name="stages_maxiob_stage">Îmbunătățirea buclei închise, mărirea valorii max IOB peste 0 și scăderea graduală a țintelor de glicemie</string>
+    <string name="stages_maxiob_gate">Se rulează pentru câteva zile și cel puțin o noapte fără a avea alarme de glicemie mică înainte de scăderea țintei</string>
+    <string name="stages_autosens_stage">Ajustarea bazalelor și a factorilor dacă este necesar și apoi activarea auto-sens</string>
+    <string name="stages_autosens_gate">O săptămână de buclă închisă încheiată cu succes în condițiile introducerii regulate a carbohidraților</string>
+    <string name="stages_ama_stage">Activarea unor facilități adiționale pentru funcționarea în timpul zilei, cum ar fi advanced meal assist</string>
+    <string name="stages_smb_stage">Se activează opțiuni pentru uzul în timpul zilei, cum ar fi SMB</string>
+    <string name="stages_smb_gate">Trebuie sa citiți wiki și să măriți maxIOB pentru a obține SMB corect! Un start bun este maxIOB=media bolusurilor + 3x maxima bazalei din zi</string>
+    <string name="stages_bgavailableinns">Glicemie disponibilă în NS</string>
+    <string name="stages_pumpstatusavailableinns">Starea pompei disponibilă în NS</string>
+    <string name="stages_manualenacts">Acțiuni manuale</string>
+    <string name="accomplished">Îndeplinit: %1$s</string>
+    <string name="stages_usage_stage">Învățați cum se controlează AndroidAPS</string>
+    <string name="stages_usage_gate">Faceți diferite acțiuni în AndroidAPS</string>
+    <string name="stages_useprofileswitch">Stabiliți profilul 90% pentru 10 min (apăsare prelungă a numelui profilului în Vedere de ansamblu)</string>
+    <string name="stages_usedisconnectpump">Simularea unui duș. Deconectarea pompei pentru 1 oră (Apăsare prelungă pe Buclă deschisă)</string>
+    <string name="stages_usereconnectpump">... și reconectare în același mod</string>
+    <string name="stages_usetemptarget">Creați ținte temporare personalizate pentru o durată de 10 min (apăsare prelungă pe ținta curentă)</string>
+    <string name="stages_useactions">În Generatorul de Configurații activați facilitatea Acțiuni, făceți-o vizibilă și afișați-i conținutul folosind meniul de sus</string>
+    <string name="stages_useloop">Afișați conținutul facilității Buclă</string>
+    <string name="stages_usescale">Folosiți funcția scală prin apăsarea prelungă a graficului glicemiei</string>
+    <string name="stages_button_enter">Introduceţi</string>
+    <string name="codeaccepted">Cod acceptat</string>
+    <string name="codeinvalid">Cod invalid</string>
+    <string name="stages_exam_stage">Dovediți-vă cunoștințele</string>
+    <string name="stages_exam_gate">Studiați și răspundeți corect la întrebări</string>
+    <string name="wronganswer">Răspuns greșit!</string>
+    <string name="unfinshed_button">Următoarea nefinalizată</string>
+    <string name="requestcode">Solicită codul: %1$s</string>
+    <string name="stages_hint">(bifați toate răspunsurile corecte)</string>
+    <string name="disconnectpump_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/FAQ.html#what-to-do-when-taking-a-shower-or-bath</string>
+    <string name="usetemptarget_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="useaction_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#config-builder</string>
+    <string name="usescale_hint" formatted="false">https://androidaps.readthedocs.io/en/latest/EN/Getting-Started/Screenshots.html#the-homescreen</string>
+    <string name="notconnected">Nu există conexiune la internet</string>
+    <string name="failedretrievetime">Nu s-a reușit preluarea timpului</string>
+    <string name="requirementnotmet">Nu au fost îndeplinite cerințele obiectivului</string>
+    <plurals name="stage_days">
+        <item quantity="one">%1$d zi</item>
+        <item quantity="few">%1$d zile</item>
+        <item quantity="other">%1$d zile</item>
+    </plurals>
+    <plurals name="stage_hours">
+        <item quantity="one">%1$d oră</item>
+        <item quantity="few">%1$d ore</item>
+        <item quantity="other">%1$d ore</item>
+    </plurals>
+    <plurals name="stage_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="other">%1$d minute</item>
+    </plurals>
+</resources>
